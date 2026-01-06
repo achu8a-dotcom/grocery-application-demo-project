@@ -9,11 +9,12 @@ import pages.AdminUsersPage;
 import pages.LoginPage;
 import pages.ManageNewsPage;
 import utilities.Excelutility;
+import utilities.FakerUtility;
 
 public class AdminUsersTest extends Base{
 	
 	
-	@Test
+	@Test(priority=1,groups= {"regression"},retryAnalyzer=retry.Retry.class)
 	public void verifyuserisabletoenternewadmincredentials() throws IOException
 	{
 	
@@ -26,8 +27,11 @@ public class AdminUsersTest extends Base{
 	loginpage.enterThePassword(passwd);
 	loginpage.clickSignin();
 		AdminUsersPage adminuserspage=new AdminUsersPage(driver);
-		String username=Excelutility.readStringData(1, 0,"Adminuser");
-		String password=Excelutility.readStringData(1, 1,"Adminuser");		
+		FakerUtility fakerutility=new FakerUtility();
+		String username=fakerutility.createRandomFirstName();
+		String password=fakerutility.createRandomLastName();
+		//String username=Excelutility.readStringData(1, 0,"Adminuser");
+		//String password=Excelutility.readStringData(1, 1,"Adminuser");		
 		adminuserspage.clickAdminUsers();
 		adminuserspage.clickAdminusersnewbutton();
 		adminuserspage.enterUsercredentials(username, password);

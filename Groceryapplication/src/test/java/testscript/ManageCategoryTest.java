@@ -13,7 +13,7 @@ import utilities.Excelutility;
 public class ManageCategoryTest extends Base{
 	
 	
-@Test	
+@Test(priority=1,groups= {"regression"},retryAnalyzer=retry.Retry.class)	
 	public void verifyuserisabletoenternewcategorydetails() throws IOException
 	{
 	

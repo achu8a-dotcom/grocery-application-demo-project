@@ -11,7 +11,7 @@ import utilities.Excelutility;
 
 public class LogoutTest extends Base{
 
-	@Test
+	@Test(priority=1,groups= {"regression"},retryAnalyzer=retry.Retry.class)
 	public void verifyuserisabletologoutfrompage() throws IOException
 	{
 	

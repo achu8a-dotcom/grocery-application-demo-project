@@ -11,7 +11,7 @@ import utilities.Excelutility;
 
 public class ManageNewsTest extends Base {
 	
-@Test(priority=2)
+@Test(priority=1,groups= {"regression"},retryAnalyzer=retry.Retry.class)
 	
 	public void verifyuserisabletoclickmanagenewsandentertext() throws IOException
 	{

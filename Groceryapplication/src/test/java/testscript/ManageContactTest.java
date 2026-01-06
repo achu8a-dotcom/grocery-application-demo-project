@@ -12,7 +12,7 @@ import utilities.Excelutility;
 
 public class ManageContactTest extends Base {
 	
-	@Test
+	@Test(priority=1,groups= {"regression"},retryAnalyzer=retry.Retry.class)
 	
 	public void verifyuserisabletoupdatecontactdetails() throws IOException
 	{
