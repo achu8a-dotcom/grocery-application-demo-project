@@ -1,0 +1,4 @@
+pages\LoginPage.class
+constant\Constant.class
+pages\ManageNewsPage.class
+utilities\Excelutility.class
