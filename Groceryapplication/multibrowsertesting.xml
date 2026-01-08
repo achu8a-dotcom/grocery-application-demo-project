@@ -8,7 +8,7 @@
        <class name="testscript.AdminUsersTest"/>
         <class name="testscript.ManageCategoryTest"/>
           <class name="testscript.ManageContactTest"/>
-            <class name="testscript.FooterTextTest"/>
+            <class name="testscript.ManageFooterTextTest"/>
               <class name="testscript.ManageNewsTest"/>
                <class name="testscript.LogoutTest"/>
     </classes>
@@ -20,7 +20,7 @@
        <class name="testscript.AdminUsersTest"/>
         <class name="testscript.ManageCategoryTest"/>
           <class name="testscript.ManageContactTest"/>
-            <class name="testscript.FooterTextTest"/>
+            <class name="testscript.ManageFooterTextTest"/>
               <class name="testscript.ManageNewsTest"/>
                <class name="testscript.LogoutTest"/>
     </classes>

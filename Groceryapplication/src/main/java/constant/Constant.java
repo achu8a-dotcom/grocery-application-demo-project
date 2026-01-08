@@ -1,8 +1,15 @@
 package constant;
 
 public class Constant {
+
+	public static final String TESTDATAFILE = System.getProperty("user.dir") + "\\src\\test\\resources\\Testdata.xlsx";
+
+	public static final String IMAGEFILE = System.getProperty("user.dir") + "\\src\\test\\resources\\Apple.jpg";
+
+	public static final String LOGINVALIDCREDENTIALS = "Error occured:Unable to navigate to Homepage using given username&password";
+
 	
-	public static final String TESTDATAFILE = System.getProperty("user.dir")+"\\src\\test\\resources\\Testdata.xlsx";
-	
-	public static final String IMAGEFILE = System.getProperty("user.dir")+"\\src\\test\\resources\\Apple.jpg";
+	public static final String CONFIGFILE = System.getProperty("user.dir")
+			+ "\\src\\main\\resources\\config.properties";
+
 }

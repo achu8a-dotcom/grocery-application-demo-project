@@ -6,37 +6,38 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.LoginPage;
+import pages.LogoutPage;
 import pages.ManageContactPage;
 import pages.ManageFooterTextPage;
 import utilities.Excelutility;
 
-public class ManageFooterTextTest extends Base{
-	
-	@Test(priority=1,groups= {"regression"},retryAnalyzer=retry.Retry.class)
-	public void verifyuserisabletoupdatemanagefooterdetails() throws IOException
-	{
-	
-	LoginPage loginpage=new LoginPage(driver);
-	//String user="admin";
-	//String passwd="admin";
-	String user=Excelutility.readStringData(1, 0,"Loginpage");
-	String passwd=Excelutility.readStringData(1, 1, "Loginpage");
-	loginpage.enterTheUsername(user);
-	loginpage.enterThePassword(passwd);
-	loginpage.clickSignin();
-		ManageFooterTextPage managefootertextpage=new ManageFooterTextPage(driver);
-		String phone=Excelutility.readIntegerData(1, 0,"Managecontact");
-		String email=Excelutility.readStringData(1, 1,"Managecontact");		
-		managefootertextpage.clickManageFooterText();
-		managefootertextpage.clickManageFooteredit();
-		managefootertextpage.UpdateContactDetails(phone, email);
-		managefootertextpage.clickUpdatebutton();
-		boolean alert=managefootertextpage.isAlertDisplayed();
+public class ManageFooterTextTest extends Base {
+
+	LogoutPage logoutpage;
+	ManageFooterTextPage managefootertextpage;
+
+	@Test(priority = 1, groups = { "regression" },description = "Testcase to update footer text details")
+	public void verifyUserIsAbleToUpdateManageFooterDetails() throws IOException {
+
+		LoginPage loginpage = new LoginPage(driver);
+		// String user="admin";
+		// String passwd="admin";
+		String user = Excelutility.readStringData(1, 0, "Loginpage");
+		String passwd = Excelutility.readStringData(1, 1, "Loginpage");
+		loginpage.enterTheUsername(user).enterThePassword(passwd);
+		logoutpage = loginpage.clickSignin();
+		// ManageFooterTextPage managefootertextpage=new ManageFooterTextPage(driver);
+		String phone = Excelutility.readIntegerData(1, 0, "Managecontact");
+		String email = Excelutility.readStringData(1, 1, "Managecontact");
+		managefootertextpage = logoutpage.clickManageFooterText();
+
+		managefootertextpage.clickManageFooterEdit().UpdateContactDetails(phone, email).clickUpdateButton();
+
+		// managefootertextpage.UpdateContactDetails(phone, email);
+		// managefootertextpage.clickUpdatebutton();
+		boolean alert = managefootertextpage.isAlertDisplayed();
 		Assert.assertTrue(alert);
-		managefootertextpage.clickHomeButton();
-		
-		
+
 	}
-	
 
 }
