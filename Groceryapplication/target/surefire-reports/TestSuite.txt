@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 51.32 s -- in TestSuite
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 479.134 s <<< FAILURE! - in TestSuite
+testscript.ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails  Time elapsed: 18.02 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Driver must be set
+	at testscript.ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails(ManageCategoryTest.java:33)
+
+testscript.ManageContactTest.verifyUserIsAbleToUpdateContactDetails  Time elapsed: 14.866 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Driver must be set
+	at testscript.ManageContactTest.verifyUserIsAbleToUpdateContactDetails(ManageContactTest.java:37)
+
+testscript.ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails  Time elapsed: 7.881 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Driver must be set
+	at testscript.ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails(ManageFooterTextTest.java:35)
+

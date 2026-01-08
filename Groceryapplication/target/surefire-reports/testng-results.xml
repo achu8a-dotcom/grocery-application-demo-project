@@ -1,31 +1,325 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="7" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-02T11:42:32 IST" name="Surefire suite" finished-at="2026-01-02T11:43:23 IST" duration-ms="50704">
+  <suite started-at="2026-01-08T14:12:17 IST" name="Suite" finished-at="2026-01-08T14:20:14 IST" duration-ms="477746">
     <groups>
+      <group name="regression">
+        <method signature="AdminUsersTest.verifyUserIsAbleToEnterNewAdminCredentials()[pri:1, instance:testscript.AdminUsersTest@2b40ff9c]" name="verifyUserIsAbleToEnterNewAdminCredentials" class="testscript.AdminUsersTest"/>
+        <method signature="LoginTest.verifyUserIsAbleToLoginUsingValidCredentials()[pri:1, instance:testscript.LoginTest@7f485fda]" name="verifyUserIsAbleToLoginUsingValidCredentials" class="testscript.LoginTest"/>
+        <method signature="LogoutTest.verifyUserIsAbleToLogoutFromPage()[pri:1, instance:testscript.LogoutTest@5ddeb7cb]" name="verifyUserIsAbleToLogoutFromPage" class="testscript.LogoutTest"/>
+        <method signature="ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails()[pri:1, instance:testscript.ManageCategoryTest@3e08ff24]" name="verifyUserIsAbleToEnterNewCategoryDetails" class="testscript.ManageCategoryTest"/>
+        <method signature="ManageContactTest.verifyUserIsAbleToUpdateContactDetails()[pri:1, instance:testscript.ManageContactTest@4d1c005e]" name="verifyUserIsAbleToUpdateContactDetails" class="testscript.ManageContactTest"/>
+        <method signature="ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails()[pri:1, instance:testscript.ManageFooterTextTest@8462f31]" name="verifyUserIsAbleToUpdateManageFooterDetails" class="testscript.ManageFooterTextTest"/>
+        <method signature="ManageNewsTest.verifyUserIsAbleToClickManageNewsAndEnterText()[pri:1, instance:testscript.ManageNewsTest@24569dba]" name="verifyUserIsAbleToClickManageNewsAndEnterText" class="testscript.ManageNewsTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2026-01-02T11:42:32 IST" name="Surefire test" finished-at="2026-01-02T11:43:23 IST" duration-ms="50704">
+    <test started-at="2026-01-08T14:12:17 IST" name="Test" finished-at="2026-01-08T14:20:14 IST" duration-ms="477746">
       <class name="testscript.ManageNewsTest">
-        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:testscript.ManageNewsTest@6ac13091]" started-at="2026-01-02T11:42:45 IST" name="browserInitialization" finished-at="2026-01-02T11:43:19 IST" duration-ms="34560" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageNewsTest@24569dba]" started-at="2026-01-08T14:18:29 IST" name="browserInitialization" finished-at="2026-01-08T14:18:54 IST" duration-ms="25279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyuserisabletoclickmanagenewsandentertext()[pri:2, instance:testscript.ManageNewsTest@6ac13091]" started-at="2026-01-02T11:43:19 IST" name="verifyuserisabletoclickmanagenewsandentertext" finished-at="2026-01-02T11:43:23 IST" duration-ms="3492" status="PASS">
+        <test-method signature="verifyUserIsAbleToClickManageNewsAndEnterText()[pri:1, instance:testscript.ManageNewsTest@24569dba]" started-at="2026-01-08T14:18:54 IST" name="verifyUserIsAbleToClickManageNewsAndEnterText" description="Testcase to enter new news details" finished-at="2026-01-08T14:19:10 IST" duration-ms="15755" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyuserisabletoclickmanagenewsandentertext -->
+        </test-method> <!-- verifyUserIsAbleToClickManageNewsAndEnterText -->
       </class> <!-- testscript.ManageNewsTest -->
-      <class name="testscript.LoginTest">
-        <test-method is-config="true" signature="browserInitialization()[pri:0, instance:testscript.LoginTest@16e7dcfd]" started-at="2026-01-02T11:42:32 IST" name="browserInitialization" finished-at="2026-01-02T11:42:40 IST" duration-ms="7726" status="PASS">
+      <class name="testscript.ManageContactTest">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageContactTest@4d1c005e]" started-at="2026-01-08T14:17:22 IST" name="browserInitialization" finished-at="2026-01-08T14:17:41 IST" duration-ms="18912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyuserisabletologinusingvalidcredentials()[pri:1, instance:testscript.LoginTest@16e7dcfd]" started-at="2026-01-02T11:42:40 IST" name="verifyuserisabletologinusingvalidcredentials" finished-at="2026-01-02T11:42:45 IST" duration-ms="4885" status="PASS">
+        <test-method signature="verifyUserIsAbleToUpdateContactDetails()[pri:1, instance:testscript.ManageContactTest@4d1c005e]" started-at="2026-01-08T14:17:41 IST" name="verifyUserIsAbleToUpdateContactDetails" description="Testcase to update contact details" finished-at="2026-01-08T14:17:56 IST" duration-ms="14863" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Driver must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:63)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:67)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:63)
+at utilities.PageUtility.ClickMethod(PageUtility.java:53)
+at pages.ManageContactPage.clickUpdateButton(ManageContactPage.java:53)
+at testscript.ManageContactTest.verifyUserIsAbleToUpdateContactDetails(ManageContactTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyuserisabletologinusingvalidcredentials -->
+        </test-method> <!-- verifyUserIsAbleToUpdateContactDetails -->
+      </class> <!-- testscript.ManageContactTest -->
+      <class name="testscript.ManageFooterTextTest">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageFooterTextTest@8462f31]" started-at="2026-01-08T14:17:56 IST" name="browserInitialization" finished-at="2026-01-08T14:18:21 IST" duration-ms="25221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyUserIsAbleToUpdateManageFooterDetails()[pri:1, instance:testscript.ManageFooterTextTest@8462f31]" started-at="2026-01-08T14:18:21 IST" name="verifyUserIsAbleToUpdateManageFooterDetails" description="Testcase to update footer text details" finished-at="2026-01-08T14:18:29 IST" duration-ms="7879" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Driver must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:63)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:67)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:63)
+at utilities.PageUtility.ClickMethod(PageUtility.java:53)
+at pages.ManageFooterTextPage.clickUpdateButton(ManageFooterTextPage.java:54)
+at testscript.ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails(ManageFooterTextTest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToUpdateManageFooterDetails -->
+      </class> <!-- testscript.ManageFooterTextTest -->
+      <class name="testscript.AdminUsersTest">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.AdminUsersTest@2b40ff9c]" started-at="2026-01-08T14:15:53 IST" name="browserInitialization" finished-at="2026-01-08T14:16:26 IST" duration-ms="32806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyUserIsAbleToEnterNewAdminCredentials()[pri:1, instance:testscript.AdminUsersTest@2b40ff9c]" started-at="2026-01-08T14:16:26 IST" name="verifyUserIsAbleToEnterNewAdminCredentials" description="Testcase to create new admin credentials" finished-at="2026-01-08T14:16:41 IST" duration-ms="15295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToEnterNewAdminCredentials -->
+      </class> <!-- testscript.AdminUsersTest -->
+      <class name="testscript.LogoutTest">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LogoutTest@5ddeb7cb]" started-at="2026-01-08T14:19:10 IST" name="browserInitialization" finished-at="2026-01-08T14:20:00 IST" duration-ms="49445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyUserIsAbleToLogoutFromPage()[pri:1, instance:testscript.LogoutTest@5ddeb7cb]" started-at="2026-01-08T14:20:00 IST" name="verifyUserIsAbleToLogoutFromPage" description="Testcase to validate pagelogout" finished-at="2026-01-08T14:20:14 IST" duration-ms="14844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToLogoutFromPage -->
+      </class> <!-- testscript.LogoutTest -->
+      <class name="testscript.LoginTest">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:12:17 IST" name="browserInitialization" finished-at="2026-01-08T14:14:12 IST" duration-ms="115246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyUserIsAbleToLoginUsingValidCredentials()[pri:1, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:14:12 IST" name="verifyUserIsAbleToLoginUsingValidCredentials" description="Testcase to verify login using different username &amp; password combinations" finished-at="2026-01-08T14:14:19 IST" duration-ms="6870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToLoginUsingValidCredentials -->
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:14:19 IST" name="browserInitialization" finished-at="2026-01-08T14:14:56 IST" duration-ms="37522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword()[pri:2, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:14:56 IST" name="verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword" finished-at="2026-01-08T14:14:58 IST" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:14:58 IST" name="browserInitialization" finished-at="2026-01-08T14:15:28 IST" duration-ms="30197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword()[pri:3, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:15:28 IST" name="verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword" finished-at="2026-01-08T14:15:29 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:15:29 IST" name="browserInitialization" finished-at="2026-01-08T14:15:52 IST" duration-ms="22540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword()[pri:4, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:15:52 IST" name="verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword" finished-at="2026-01-08T14:15:53 IST" duration-ms="950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword -->
       </class> <!-- testscript.LoginTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      <class name="testscript.ManageCategoryTest">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageCategoryTest@3e08ff24]" started-at="2026-01-08T14:16:41 IST" name="browserInitialization" finished-at="2026-01-08T14:17:04 IST" duration-ms="23385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInitialization -->
+        <test-method signature="verifyUserIsAbleToEnterNewCategoryDetails()[pri:1, instance:testscript.ManageCategoryTest@3e08ff24]" started-at="2026-01-08T14:17:04 IST" name="verifyUserIsAbleToEnterNewCategoryDetails" description="Testcase to create new category details" finished-at="2026-01-08T14:17:22 IST" duration-ms="18006" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Driver must be set]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
+at org.openqa.selenium.internal.Require.nonNull(Require.java:63)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:67)
+at org.openqa.selenium.interactions.Actions.<init>(Actions.java:63)
+at utilities.PageUtility.ClickMethod(PageUtility.java:53)
+at pages.ManageCategoryPage.clickSaveButton(ManageCategoryPage.java:57)
+at testscript.ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails(ManageCategoryTest.java:33)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToEnterNewCategoryDetails -->
+      </class> <!-- testscript.ManageCategoryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

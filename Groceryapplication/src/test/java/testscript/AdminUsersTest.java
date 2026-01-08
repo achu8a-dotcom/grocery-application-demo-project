@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import constant.Constant;
 import pages.AdminUsersPage;
 import pages.LoginPage;
 import pages.LogoutPage;
@@ -42,7 +43,7 @@ public class AdminUsersTest extends Base {
 		// adminuserspage.selectUsertype();
 		// adminuserspage.clickSaveUser();
 		boolean alert = adminuserspage.isAlertDisplayed();
-		Assert.assertTrue(alert);
+		Assert.assertTrue(alert,Constant.ALERTNOTDISPLAYED);
 		// adminuserspage.clickHomeButton();
 
 	}

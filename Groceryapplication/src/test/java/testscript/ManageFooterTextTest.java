@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import constant.Constant;
 import pages.LoginPage;
 import pages.LogoutPage;
 import pages.ManageContactPage;
@@ -36,7 +37,7 @@ public class ManageFooterTextTest extends Base {
 		// managefootertextpage.UpdateContactDetails(phone, email);
 		// managefootertextpage.clickUpdatebutton();
 		boolean alert = managefootertextpage.isAlertDisplayed();
-		Assert.assertTrue(alert);
+		Assert.assertTrue(alert,Constant.ALERTNOTDISPLAYED);
 
 	}
 

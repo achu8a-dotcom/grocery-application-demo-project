@@ -1,4 +1,15 @@
 pages\LoginPage.class
-constant\Constant.class
-pages\ManageNewsPage.class
+utilities\ScreenshotUtility.class
+utilities\ExtendReportUtility.class
+utilities\FakerUtility.class
 utilities\Excelutility.class
+utilities\PageUtility.class
+pages\ManageContactPage.class
+pages\ManageFooterTextPage.class
+pages\LogoutPage.class
+constant\Constant.class
+pages\ManageCategoryPage.class
+pages\ManageNewsPage.class
+utilities\FileUploadUtility.class
+utilities\WaitUtility.class
+pages\AdminUsersPage.class

@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import constant.Constant;
 import pages.LoginPage;
 import pages.LogoutPage;
 import pages.ManageCategoryPage;
@@ -33,7 +34,7 @@ public class ManageCategoryTest extends Base {
 		// managecategorypage.enterCategoryDetails(category);
 		// managecategorypage.clickSavebutton();
 		boolean alert = managecategorypage.isAlertDisplayed();
-		Assert.assertTrue(alert);
+		Assert.assertTrue(alert,Constant.ALERTNOTDISPLAYED);
 
 	}
 

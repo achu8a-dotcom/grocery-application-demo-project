@@ -38,7 +38,7 @@ public class LoginTest extends Base {
 		loginpage.enterThePassword(passwd);
 		loginpage.clickSignin();
 		boolean alert = loginpage.isAlertDisplayed();
-		Assert.assertTrue(alert);
+		Assert.assertTrue(alert,Constant.ALERTNOTDISPLAYED);
 	}
 
 	@Test(priority = 3)
@@ -52,7 +52,7 @@ public class LoginTest extends Base {
 		loginpage.enterThePassword(passwd);
 		loginpage.clickSignin();
 		boolean alert = loginpage.isAlertDisplayed();
-		Assert.assertTrue(alert);
+		Assert.assertTrue(alert,Constant.ALERTNOTDISPLAYED);
 
 	}
 
@@ -67,7 +67,7 @@ public class LoginTest extends Base {
 		loginpage.enterThePassword(passwd);
 		loginpage.clickSignin();
 		boolean alert = loginpage.isAlertDisplayed();
-		Assert.assertTrue(alert);
+		Assert.assertTrue(alert,Constant.ALERTNOTDISPLAYED);
 
 	}
 

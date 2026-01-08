@@ -8,12 +8,44 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">50,704</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">477,746</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testscript.LoginTest</td><td><a href="#m0">verifyuserisabletologinusingvalidcredentials</a></td><td rowspan="1">1767334360427</td><td rowspan="1">4885</td></tr><tr class="passedodd"><td rowspan="1">testscript.ManageNewsTest</td><td><a href="#m1">verifyuserisabletoclickmanagenewsandentertext</a></td><td rowspan="1">1767334399877</td><td rowspan="1">3492</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testscript.ManageCategoryTest</td><td><a href="#m0">verifyUserIsAbleToEnterNewCategoryDetails</a></td><td rowspan="1">1767862024767</td><td rowspan="1">18006</td></tr><tr class="failedodd"><td rowspan="1">testscript.ManageContactTest</td><td><a href="#m1">verifyUserIsAbleToUpdateContactDetails</a></td><td rowspan="1">1767862061686</td><td rowspan="1">14863</td></tr><tr class="failedeven"><td rowspan="1">testscript.ManageFooterTextTest</td><td><a href="#m2">verifyUserIsAbleToUpdateManageFooterDetails</a></td><td rowspan="1">1767862101774</td><td rowspan="1">7879</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testscript.AdminUsersTest</td><td><a href="#m3">verifyUserIsAbleToEnterNewAdminCredentials</a></td><td rowspan="1">1767861986086</td><td rowspan="1">15295</td></tr><tr class="passedodd"><td rowspan="4">testscript.LoginTest</td><td><a href="#m4">verifyUserIsAbleToLoginUsingValidCredentials</a></td><td rowspan="1">1767861852523</td><td rowspan="1">6870</td></tr><tr class="passedodd"><td><a href="#m5">verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword</a></td><td rowspan="1">1767861952328</td><td rowspan="1">950</td></tr><tr class="passedodd"><td><a href="#m6">verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword</a></td><td rowspan="1">1767861896929</td><td rowspan="1">1603</td></tr><tr class="passedodd"><td><a href="#m7">verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword</a></td><td rowspan="1">1767861928731</td><td rowspan="1">1054</td></tr><tr class="passedeven"><td rowspan="1">testscript.LogoutTest</td><td><a href="#m8">verifyUserIsAbleToLogoutFromPage</a></td><td rowspan="1">1767862200136</td><td rowspan="1">14844</td></tr><tr class="passedodd"><td rowspan="1">testscript.ManageNewsTest</td><td><a href="#m9">verifyUserIsAbleToClickManageNewsAndEnterText</a></td><td rowspan="1">1767862134934</td><td rowspan="1">15755</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">testscript.LoginTest#verifyuserisabletologinusingvalidcredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testscript.ManageNewsTest#verifyuserisabletoclickmanagenewsandentertext</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">testscript.ManageCategoryTest#verifyUserIsAbleToEnterNewCategoryDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:63)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:67)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:63)
+	at utilities.PageUtility.ClickMethod(PageUtility.java:53)
+	at pages.ManageCategoryPage.clickSaveButton(ManageCategoryPage.java:57)
+	at testscript.ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails(ManageCategoryTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testscript.ManageContactTest#verifyUserIsAbleToUpdateContactDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:63)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:67)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:63)
+	at utilities.PageUtility.ClickMethod(PageUtility.java:53)
+	at pages.ManageContactPage.clickUpdateButton(ManageContactPage.java:53)
+	at testscript.ManageContactTest.verifyUserIsAbleToUpdateContactDetails(ManageContactTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testscript.ManageFooterTextTest#verifyUserIsAbleToUpdateManageFooterDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Driver must be set
+	at org.openqa.selenium.internal.Require.nonNull(Require.java:63)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:67)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:63)
+	at utilities.PageUtility.ClickMethod(PageUtility.java:53)
+	at pages.ManageFooterTextPage.clickUpdateButton(ManageFooterTextPage.java:54)
+	at testscript.ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails(ManageFooterTextTest.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testscript.AdminUsersTest#verifyUserIsAbleToEnterNewAdminCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testscript.LoginTest#verifyUserIsAbleToLoginUsingValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testscript.LoginTest#verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testscript.LoginTest#verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testscript.LoginTest#verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testscript.LogoutTest#verifyUserIsAbleToLogoutFromPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testscript.ManageNewsTest#verifyUserIsAbleToClickManageNewsAndEnterText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
