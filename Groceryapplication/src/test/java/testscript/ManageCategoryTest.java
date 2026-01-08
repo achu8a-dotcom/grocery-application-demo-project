@@ -28,9 +28,9 @@ public class ManageCategoryTest extends Base {
   //	loginpage.enterThePassword(passwd);
 		logoutpage = loginpage.clickSignin();
 		// ManageCategoryPage managecategorypage=new ManageCategoryPage(driver);
-		String category = Excelutility.readStringData(1, 0, "Managecategory");
+		String categ = Excelutility.readStringData(1, 0, "Managecategory");
 		managecategorypage = logoutpage.clickManageCategory();
-		managecategorypage.clickNewManageCategory().enterCategoryDetails(category).clickSaveButton();
+		managecategorypage.clickNewManageCategory().enterCategoryDetails(categ).clickSaveButton();
 		// managecategorypage.enterCategoryDetails(category);
 		// managecategorypage.clickSavebutton();
 		boolean alert = managecategorypage.isAlertDisplayed();

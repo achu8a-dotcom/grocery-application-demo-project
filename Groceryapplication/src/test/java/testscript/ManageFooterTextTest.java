@@ -28,11 +28,11 @@ public class ManageFooterTextTest extends Base {
 		loginpage.enterTheUsername(user).enterThePassword(passwd);
 		logoutpage = loginpage.clickSignin();
 		// ManageFooterTextPage managefootertextpage=new ManageFooterTextPage(driver);
-		String phone = Excelutility.readIntegerData(1, 0, "Managecontact");
-		String email = Excelutility.readStringData(1, 1, "Managecontact");
+		String phno = Excelutility.readIntegerData(1, 0, "Managecontact");
+		String mailid = Excelutility.readStringData(1, 1, "Managecontact");
 		managefootertextpage = logoutpage.clickManageFooterText();
 
-		managefootertextpage.clickManageFooterEdit().UpdateContactDetails(phone, email).clickUpdateButton();
+		managefootertextpage.clickManageFooterEdit().UpdateContactDetails(phno,mailid).clickUpdateButton();
 
 		// managefootertextpage.UpdateContactDetails(phone, email);
 		// managefootertextpage.clickUpdatebutton();

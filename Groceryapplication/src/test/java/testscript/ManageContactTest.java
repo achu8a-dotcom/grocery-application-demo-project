@@ -31,10 +31,10 @@ public class ManageContactTest extends Base {
 		logoutpage = loginpage.clickSignin();
 
 		// ManageContactPage managecontactpage=new ManageContactPage(driver);
-		String phone = Excelutility.readIntegerData(1, 0, "Managecontact");
-		String email = Excelutility.readStringData(1, 1, "Managecontact");
+		String ph = Excelutility.readIntegerData(1, 0, "Managecontact");
+		String mail = Excelutility.readStringData(1, 1, "Managecontact");
 		managecontactpage = logoutpage.clickManageContact();
-		managecontactpage.clickManageContactEdit().enterContactDetails(phone, email).clickUpdateButton();
+		managecontactpage.clickManageContactEdit().enterContactDetails(ph, mail).clickUpdateButton();
 
 		// managecontactpage.enterContactDetails(phone, email);
 		// managecontactpage.clickUpdatebutton();
