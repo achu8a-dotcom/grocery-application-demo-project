@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utilities.WaitUtility;
+
 public class LoginPage {
 
 	@FindBy(name = "username")
@@ -28,6 +30,8 @@ public class LoginPage {
 	}
 
 	public LoginPage enterTheUsername(String user) {
+		WaitUtility waitutility=new WaitUtility();
+		waitutility.waitforelementtobeclickable(driver, username);
 		username.sendKeys(user);
 		return this;
 	}
