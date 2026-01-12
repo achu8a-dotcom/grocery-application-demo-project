@@ -51,7 +51,7 @@ public class ManageFooterTextPage {
 
 	public ManageFooterTextPage clickUpdateButton() {
 		PageUtility pageutility = new PageUtility();
-		pageutility.ClickMethod(updatebutton);
+		pageutility.ClickMethod(updatebutton,driver);
 		return this;
 
 	}

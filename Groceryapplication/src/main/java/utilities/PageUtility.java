@@ -49,14 +49,18 @@ public class PageUtility {
 		actions.moveToElement(element).perform();
 	}
 
-	public void ClickMethod(WebElement element) {
+	public void ClickMethod(WebElement element,WebDriver driver) {
 		Actions actions = new Actions(driver);
 		actions.click(element).perform();
 	}
 
-	public void javaScriptExecutorMethod(WebElement inputfield, WebElement button) {
+	public void javaScriptExecutorSendKeys(WebElement inputfield,WebDriver driver) {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].value='cyril';", inputfield);
+	}
+	
+	public void javaScriptExecutorMethod(WebElement button,WebDriver driver) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].click();", button);
 	}
 }

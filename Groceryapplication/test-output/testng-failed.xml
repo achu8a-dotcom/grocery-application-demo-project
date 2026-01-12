@@ -7,33 +7,9 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testscript.ManageFooterTextTest">
-        <methods>
-          <include name="verifyuserisabletoupdatemanagefooterdetails"/>
-          <include name="browserInitialization"/>
-        </methods>
-      </class> <!-- testscript.ManageFooterTextTest -->
-      <class name="testscript.ManageContactTest">
-        <methods>
-          <include name="verifyuserisabletoupdatecontactdetails"/>
-          <include name="browserInitialization"/>
-        </methods>
-      </class> <!-- testscript.ManageContactTest -->
-      <class name="testscript.LogoutTest">
-        <methods>
-          <include name="verifyuserisabletologoutfrompage"/>
-          <include name="browserInitialization"/>
-        </methods>
-      </class> <!-- testscript.LogoutTest -->
-      <class name="testscript.ManageNewsTest">
-        <methods>
-          <include name="browserInitialization"/>
-          <include name="verifyuserisabletoclickmanagenewsandentertext"/>
-        </methods>
-      </class> <!-- testscript.ManageNewsTest -->
       <class name="testscript.ManageCategoryTest">
         <methods>
-          <include name="verifyuserisabletoenternewcategorydetails"/>
+          <include name="verifyUserIsAbleToEnterNewCategoryDetails"/>
           <include name="browserInitialization"/>
         </methods>
       </class> <!-- testscript.ManageCategoryTest -->

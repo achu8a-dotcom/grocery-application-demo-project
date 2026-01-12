@@ -50,7 +50,7 @@ public class ManageContactPage {
 
 	public ManageContactPage clickUpdateButton() {
 		PageUtility pageutility = new PageUtility();
-		pageutility.ClickMethod(updatebutton);
+		pageutility.ClickMethod(updatebutton,driver);
 		return this;
 
 	}

@@ -11,11 +11,13 @@
         <methods>
           <include name="verifyUserIsAbleToUpdateManageFooterDetails"/>
           <include name="browserInitialization"/>
+          <include name="browserQuit"/>
         </methods>
       </class> <!-- testscript.ManageFooterTextTest -->
       <class name="testscript.ManageContactTest">
         <methods>
           <include name="browserInitialization"/>
+          <include name="browserQuit"/>
           <include name="verifyUserIsAbleToUpdateContactDetails"/>
         </methods>
       </class> <!-- testscript.ManageContactTest -->
@@ -23,6 +25,7 @@
         <methods>
           <include name="verifyUserIsAbleToEnterNewCategoryDetails"/>
           <include name="browserInitialization"/>
+          <include name="browserQuit"/>
         </methods>
       </class> <!-- testscript.ManageCategoryTest -->
     </classes>

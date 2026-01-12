@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -54,7 +55,7 @@ public class ManageCategoryPage {
 
 	public ManageCategoryPage clickSaveButton() {
 		PageUtility pageutility = new PageUtility();
-		pageutility.ClickMethod(savebutton);
+		pageutility.javaScriptExecutorMethod(savebutton,driver);
 		return this;
 
 	}

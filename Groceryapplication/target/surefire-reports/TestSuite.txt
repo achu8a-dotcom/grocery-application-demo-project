@@ -1,16 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 479.134 s <<< FAILURE! - in TestSuite
-testscript.ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails  Time elapsed: 18.02 s  <<< FAILURE!
-java.lang.IllegalArgumentException: Driver must be set
-	at testscript.ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails(ManageCategoryTest.java:33)
+Tests run: 10, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 444.265 s <<< FAILURE! - in TestSuite
+testscript.ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails  Time elapsed: 5.305 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b52ac4b04b4912e8e12597810c7c634, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ASARAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55309}, goog:processID: 12824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55309/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b52ac4b04b4912e8e12597810c7c634
+	at testscript.ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails(ManageCategoryTest.java:27)
 
-testscript.ManageContactTest.verifyUserIsAbleToUpdateContactDetails  Time elapsed: 14.866 s  <<< FAILURE!
+testscript.ManageContactTest.verifyUserIsAbleToUpdateContactDetails  Time elapsed: 6.37 s  <<< FAILURE!
 java.lang.IllegalArgumentException: Driver must be set
 	at testscript.ManageContactTest.verifyUserIsAbleToUpdateContactDetails(ManageContactTest.java:37)
 
-testscript.ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails  Time elapsed: 7.881 s  <<< FAILURE!
+testscript.ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails  Time elapsed: 6.576 s  <<< FAILURE!
 java.lang.IllegalArgumentException: Driver must be set
 	at testscript.ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails(ManageFooterTextTest.java:35)
 

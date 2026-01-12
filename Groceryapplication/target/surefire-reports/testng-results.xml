@@ -2,21 +2,21 @@
 <testng-results ignored="0" total="10" passed="7" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-08T14:12:17 IST" name="Suite" finished-at="2026-01-08T14:20:14 IST" duration-ms="477746">
+  <suite started-at="2026-01-08T19:42:31 IST" name="Suite" finished-at="2026-01-08T19:49:53 IST" duration-ms="441830">
     <groups>
       <group name="regression">
-        <method signature="AdminUsersTest.verifyUserIsAbleToEnterNewAdminCredentials()[pri:1, instance:testscript.AdminUsersTest@2b40ff9c]" name="verifyUserIsAbleToEnterNewAdminCredentials" class="testscript.AdminUsersTest"/>
-        <method signature="LoginTest.verifyUserIsAbleToLoginUsingValidCredentials()[pri:1, instance:testscript.LoginTest@7f485fda]" name="verifyUserIsAbleToLoginUsingValidCredentials" class="testscript.LoginTest"/>
-        <method signature="LogoutTest.verifyUserIsAbleToLogoutFromPage()[pri:1, instance:testscript.LogoutTest@5ddeb7cb]" name="verifyUserIsAbleToLogoutFromPage" class="testscript.LogoutTest"/>
-        <method signature="ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails()[pri:1, instance:testscript.ManageCategoryTest@3e08ff24]" name="verifyUserIsAbleToEnterNewCategoryDetails" class="testscript.ManageCategoryTest"/>
-        <method signature="ManageContactTest.verifyUserIsAbleToUpdateContactDetails()[pri:1, instance:testscript.ManageContactTest@4d1c005e]" name="verifyUserIsAbleToUpdateContactDetails" class="testscript.ManageContactTest"/>
-        <method signature="ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails()[pri:1, instance:testscript.ManageFooterTextTest@8462f31]" name="verifyUserIsAbleToUpdateManageFooterDetails" class="testscript.ManageFooterTextTest"/>
-        <method signature="ManageNewsTest.verifyUserIsAbleToClickManageNewsAndEnterText()[pri:1, instance:testscript.ManageNewsTest@24569dba]" name="verifyUserIsAbleToClickManageNewsAndEnterText" class="testscript.ManageNewsTest"/>
+        <method signature="AdminUsersTest.verifyUserIsAbleToEnterNewAdminCredentials()[pri:1, instance:testscript.AdminUsersTest@4d1c005e]" name="verifyUserIsAbleToEnterNewAdminCredentials" class="testscript.AdminUsersTest"/>
+        <method signature="LoginTest.verifyUserIsAbleToLoginUsingValidCredentials()[pri:1, instance:testscript.LoginTest@d737b89]" name="verifyUserIsAbleToLoginUsingValidCredentials" class="testscript.LoginTest"/>
+        <method signature="LogoutTest.verifyUserIsAbleToLogoutFromPage()[pri:1, instance:testscript.LogoutTest@496bc455]" name="verifyUserIsAbleToLogoutFromPage" class="testscript.LogoutTest"/>
+        <method signature="ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails()[pri:1, instance:testscript.ManageCategoryTest@8462f31]" name="verifyUserIsAbleToEnterNewCategoryDetails" class="testscript.ManageCategoryTest"/>
+        <method signature="ManageContactTest.verifyUserIsAbleToUpdateContactDetails()[pri:1, instance:testscript.ManageContactTest@24569dba]" name="verifyUserIsAbleToUpdateContactDetails" class="testscript.ManageContactTest"/>
+        <method signature="ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails()[pri:1, instance:testscript.ManageFooterTextTest@5ddeb7cb]" name="verifyUserIsAbleToUpdateManageFooterDetails" class="testscript.ManageFooterTextTest"/>
+        <method signature="ManageNewsTest.verifyUserIsAbleToClickManageNewsAndEnterText()[pri:1, instance:testscript.ManageNewsTest@70ed52de]" name="verifyUserIsAbleToClickManageNewsAndEnterText" class="testscript.ManageNewsTest"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2026-01-08T14:12:17 IST" name="Test" finished-at="2026-01-08T14:20:14 IST" duration-ms="477746">
+    <test started-at="2026-01-08T19:42:31 IST" name="Test" finished-at="2026-01-08T19:49:53 IST" duration-ms="441830">
       <class name="testscript.ManageNewsTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageNewsTest@24569dba]" started-at="2026-01-08T14:18:29 IST" name="browserInitialization" finished-at="2026-01-08T14:18:54 IST" duration-ms="25279" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageNewsTest@70ed52de]" started-at="2026-01-08T19:49:12 IST" name="browserInitialization" finished-at="2026-01-08T19:49:24 IST" duration-ms="12324" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,13 +27,24 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyUserIsAbleToClickManageNewsAndEnterText()[pri:1, instance:testscript.ManageNewsTest@24569dba]" started-at="2026-01-08T14:18:54 IST" name="verifyUserIsAbleToClickManageNewsAndEnterText" description="Testcase to enter new news details" finished-at="2026-01-08T14:19:10 IST" duration-ms="15755" status="PASS">
+        <test-method signature="verifyUserIsAbleToClickManageNewsAndEnterText()[pri:1, instance:testscript.ManageNewsTest@70ed52de]" started-at="2026-01-08T19:49:24 IST" name="verifyUserIsAbleToClickManageNewsAndEnterText" description="Testcase to enter new news details" finished-at="2026-01-08T19:49:32 IST" duration-ms="7399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToClickManageNewsAndEnterText -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.ManageNewsTest@70ed52de]" started-at="2026-01-08T19:49:32 IST" name="browserQuit" finished-at="2026-01-08T19:49:32 IST" duration-ms="742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToClickManageNewsAndEnterText status=SUCCESS method=ManageNewsTest.verifyUserIsAbleToClickManageNewsAndEnterText()[pri:1, instance:testscript.ManageNewsTest@70ed52de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
       </class> <!-- testscript.ManageNewsTest -->
       <class name="testscript.ManageContactTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageContactTest@4d1c005e]" started-at="2026-01-08T14:17:22 IST" name="browserInitialization" finished-at="2026-01-08T14:17:41 IST" duration-ms="18912" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageContactTest@24569dba]" started-at="2026-01-08T19:48:22 IST" name="browserInitialization" finished-at="2026-01-08T19:48:44 IST" duration-ms="22212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyUserIsAbleToUpdateContactDetails()[pri:1, instance:testscript.ManageContactTest@4d1c005e]" started-at="2026-01-08T14:17:41 IST" name="verifyUserIsAbleToUpdateContactDetails" description="Testcase to update contact details" finished-at="2026-01-08T14:17:56 IST" duration-ms="14863" status="FAIL">
+        <test-method signature="verifyUserIsAbleToUpdateContactDetails()[pri:1, instance:testscript.ManageContactTest@24569dba]" started-at="2026-01-08T19:48:44 IST" name="verifyUserIsAbleToUpdateContactDetails" description="Testcase to update contact details" finished-at="2026-01-08T19:48:50 IST" duration-ms="6359" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Driver must be set]]>
@@ -95,9 +106,20 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToUpdateContactDetails -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.ManageContactTest@24569dba]" started-at="2026-01-08T19:48:50 IST" name="browserQuit" finished-at="2026-01-08T19:48:51 IST" duration-ms="754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToUpdateContactDetails status=FAILURE method=ManageContactTest.verifyUserIsAbleToUpdateContactDetails()[pri:1, instance:testscript.ManageContactTest@24569dba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
       </class> <!-- testscript.ManageContactTest -->
       <class name="testscript.ManageFooterTextTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageFooterTextTest@8462f31]" started-at="2026-01-08T14:17:56 IST" name="browserInitialization" finished-at="2026-01-08T14:18:21 IST" duration-ms="25221" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageFooterTextTest@5ddeb7cb]" started-at="2026-01-08T19:48:51 IST" name="browserInitialization" finished-at="2026-01-08T19:49:04 IST" duration-ms="13374" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -108,7 +130,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyUserIsAbleToUpdateManageFooterDetails()[pri:1, instance:testscript.ManageFooterTextTest@8462f31]" started-at="2026-01-08T14:18:21 IST" name="verifyUserIsAbleToUpdateManageFooterDetails" description="Testcase to update footer text details" finished-at="2026-01-08T14:18:29 IST" duration-ms="7879" status="FAIL">
+        <test-method signature="verifyUserIsAbleToUpdateManageFooterDetails()[pri:1, instance:testscript.ManageFooterTextTest@5ddeb7cb]" started-at="2026-01-08T19:49:04 IST" name="verifyUserIsAbleToUpdateManageFooterDetails" description="Testcase to update footer text details" finished-at="2026-01-08T19:49:11 IST" duration-ms="6564" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Driver must be set]]>
@@ -159,9 +181,20 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToUpdateManageFooterDetails -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.ManageFooterTextTest@5ddeb7cb]" started-at="2026-01-08T19:49:11 IST" name="browserQuit" finished-at="2026-01-08T19:49:12 IST" duration-ms="905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToUpdateManageFooterDetails status=FAILURE method=ManageFooterTextTest.verifyUserIsAbleToUpdateManageFooterDetails()[pri:1, instance:testscript.ManageFooterTextTest@5ddeb7cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
       </class> <!-- testscript.ManageFooterTextTest -->
       <class name="testscript.AdminUsersTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.AdminUsersTest@2b40ff9c]" started-at="2026-01-08T14:15:53 IST" name="browserInitialization" finished-at="2026-01-08T14:16:26 IST" duration-ms="32806" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.AdminUsersTest@4d1c005e]" started-at="2026-01-08T19:45:03 IST" name="browserInitialization" finished-at="2026-01-08T19:45:39 IST" duration-ms="36054" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -172,13 +205,24 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyUserIsAbleToEnterNewAdminCredentials()[pri:1, instance:testscript.AdminUsersTest@2b40ff9c]" started-at="2026-01-08T14:16:26 IST" name="verifyUserIsAbleToEnterNewAdminCredentials" description="Testcase to create new admin credentials" finished-at="2026-01-08T14:16:41 IST" duration-ms="15295" status="PASS">
+        <test-method signature="verifyUserIsAbleToEnterNewAdminCredentials()[pri:1, instance:testscript.AdminUsersTest@4d1c005e]" started-at="2026-01-08T19:45:39 IST" name="verifyUserIsAbleToEnterNewAdminCredentials" description="Testcase to create new admin credentials" finished-at="2026-01-08T19:46:29 IST" duration-ms="49741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToEnterNewAdminCredentials -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.AdminUsersTest@4d1c005e]" started-at="2026-01-08T19:46:29 IST" name="browserQuit" finished-at="2026-01-08T19:46:30 IST" duration-ms="755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToEnterNewAdminCredentials status=SUCCESS method=AdminUsersTest.verifyUserIsAbleToEnterNewAdminCredentials()[pri:1, instance:testscript.AdminUsersTest@4d1c005e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
       </class> <!-- testscript.AdminUsersTest -->
       <class name="testscript.LogoutTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LogoutTest@5ddeb7cb]" started-at="2026-01-08T14:19:10 IST" name="browserInitialization" finished-at="2026-01-08T14:20:00 IST" duration-ms="49445" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LogoutTest@496bc455]" started-at="2026-01-08T19:49:32 IST" name="browserInitialization" finished-at="2026-01-08T19:49:47 IST" duration-ms="14452" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,13 +233,24 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyUserIsAbleToLogoutFromPage()[pri:1, instance:testscript.LogoutTest@5ddeb7cb]" started-at="2026-01-08T14:20:00 IST" name="verifyUserIsAbleToLogoutFromPage" description="Testcase to validate pagelogout" finished-at="2026-01-08T14:20:14 IST" duration-ms="14844" status="PASS">
+        <test-method signature="verifyUserIsAbleToLogoutFromPage()[pri:1, instance:testscript.LogoutTest@496bc455]" started-at="2026-01-08T19:49:47 IST" name="verifyUserIsAbleToLogoutFromPage" description="Testcase to validate pagelogout" finished-at="2026-01-08T19:49:52 IST" duration-ms="5660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToLogoutFromPage -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.LogoutTest@496bc455]" started-at="2026-01-08T19:49:52 IST" name="browserQuit" finished-at="2026-01-08T19:49:53 IST" duration-ms="556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToLogoutFromPage status=SUCCESS method=LogoutTest.verifyUserIsAbleToLogoutFromPage()[pri:1, instance:testscript.LogoutTest@496bc455] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
       </class> <!-- testscript.LogoutTest -->
       <class name="testscript.LoginTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:12:17 IST" name="browserInitialization" finished-at="2026-01-08T14:14:12 IST" duration-ms="115246" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:42:31 IST" name="browserInitialization" finished-at="2026-01-08T19:42:53 IST" duration-ms="22096" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -206,11 +261,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyUserIsAbleToLoginUsingValidCredentials()[pri:1, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:14:12 IST" name="verifyUserIsAbleToLoginUsingValidCredentials" description="Testcase to verify login using different username &amp; password combinations" finished-at="2026-01-08T14:14:19 IST" duration-ms="6870" status="PASS">
+        <test-method signature="verifyUserIsAbleToLoginUsingValidCredentials()[pri:1, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:42:53 IST" name="verifyUserIsAbleToLoginUsingValidCredentials" description="Testcase to verify login using different username &amp; password combinations" finished-at="2026-01-08T19:43:18 IST" duration-ms="24885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToLoginUsingValidCredentials -->
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:14:19 IST" name="browserInitialization" finished-at="2026-01-08T14:14:56 IST" duration-ms="37522" status="PASS">
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:43:18 IST" name="browserQuit" finished-at="2026-01-08T19:43:19 IST" duration-ms="596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToLoginUsingValidCredentials status=SUCCESS method=LoginTest.verifyUserIsAbleToLoginUsingValidCredentials()[pri:1, instance:testscript.LoginTest@d737b89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:43:19 IST" name="browserInitialization" finished-at="2026-01-08T19:43:42 IST" duration-ms="22772" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,11 +287,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword()[pri:2, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:14:56 IST" name="verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword" finished-at="2026-01-08T14:14:58 IST" duration-ms="1603" status="PASS">
+        <test-method signature="verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword()[pri:2, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:43:42 IST" name="verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword" finished-at="2026-01-08T19:43:44 IST" duration-ms="2565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword -->
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:14:58 IST" name="browserInitialization" finished-at="2026-01-08T14:15:28 IST" duration-ms="30197" status="PASS">
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:43:44 IST" name="browserQuit" finished-at="2026-01-08T19:43:45 IST" duration-ms="444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword status=SUCCESS method=LoginTest.verifyUserIsUnableToLoginUsingInvalidUsernameAndValidPassword()[pri:2, instance:testscript.LoginTest@d737b89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:43:45 IST" name="browserInitialization" finished-at="2026-01-08T19:44:07 IST" duration-ms="22271" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -236,11 +313,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword()[pri:3, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:15:28 IST" name="verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword" finished-at="2026-01-08T14:15:29 IST" duration-ms="1054" status="PASS">
+        <test-method signature="verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword()[pri:3, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:44:07 IST" name="verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword" finished-at="2026-01-08T19:44:08 IST" duration-ms="1457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword -->
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:15:29 IST" name="browserInitialization" finished-at="2026-01-08T14:15:52 IST" duration-ms="22540" status="PASS">
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:44:08 IST" name="browserQuit" finished-at="2026-01-08T19:44:09 IST" duration-ms="473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword status=SUCCESS method=LoginTest.verifyUserIsUnableToLoginUsingValidUsernameAndInvalidPassword()[pri:3, instance:testscript.LoginTest@d737b89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:44:09 IST" name="browserInitialization" finished-at="2026-01-08T19:45:00 IST" duration-ms="51391" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,13 +339,24 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword()[pri:4, instance:testscript.LoginTest@7f485fda]" started-at="2026-01-08T14:15:52 IST" name="verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword" finished-at="2026-01-08T14:15:53 IST" duration-ms="950" status="PASS">
+        <test-method signature="verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword()[pri:4, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:45:00 IST" name="verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword" finished-at="2026-01-08T19:45:02 IST" duration-ms="2001" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@d737b89]" started-at="2026-01-08T19:45:02 IST" name="browserQuit" finished-at="2026-01-08T19:45:03 IST" duration-ms="884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword status=SUCCESS method=LoginTest.verifyUserIsUnableToLoginUsingInvalidUsernameAndInvalidPassword()[pri:4, instance:testscript.LoginTest@d737b89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
       </class> <!-- testscript.LoginTest -->
       <class name="testscript.ManageCategoryTest">
-        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageCategoryTest@3e08ff24]" started-at="2026-01-08T14:16:41 IST" name="browserInitialization" finished-at="2026-01-08T14:17:04 IST" duration-ms="23385" status="PASS">
+        <test-method is-config="true" signature="browserInitialization(java.lang.String)[pri:0, instance:testscript.ManageCategoryTest@8462f31]" started-at="2026-01-08T19:46:30 IST" name="browserInitialization" finished-at="2026-01-08T19:48:15 IST" duration-ms="105311" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -268,19 +367,50 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInitialization -->
-        <test-method signature="verifyUserIsAbleToEnterNewCategoryDetails()[pri:1, instance:testscript.ManageCategoryTest@3e08ff24]" started-at="2026-01-08T14:17:04 IST" name="verifyUserIsAbleToEnterNewCategoryDetails" description="Testcase to create new category details" finished-at="2026-01-08T14:17:22 IST" duration-ms="18006" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
+        <test-method signature="verifyUserIsAbleToEnterNewCategoryDetails()[pri:1, instance:testscript.ManageCategoryTest@8462f31]" started-at="2026-01-08T19:48:15 IST" name="verifyUserIsAbleToEnterNewCategoryDetails" description="Testcase to create new category details" finished-at="2026-01-08T19:48:20 IST" duration-ms="5227" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Driver must be set]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b52ac4b04b4912e8e12597810c7c634, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ASARAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55309}, goog:processID: 12824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55309/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b52ac4b04b4912e8e12597810c7c634]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Driver must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:63)
-at org.openqa.selenium.interactions.Actions.<init>(Actions.java:67)
-at org.openqa.selenium.interactions.Actions.<init>(Actions.java:63)
-at utilities.PageUtility.ClickMethod(PageUtility.java:53)
-at pages.ManageCategoryPage.clickSaveButton(ManageCategoryPage.java:57)
-at testscript.ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails(ManageCategoryTest.java:33)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b52ac4b04b4912e8e12597810c7c634, findElement {value=username, using=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ASARAV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55309}, goog:processID: 12824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55309/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b52ac4b04b4912e8e12597810c7c634
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.sendKeys(Unknown Source)
+at pages.LoginPage.enterTheUsername(LoginPage.java:31)
+at testscript.ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails(ManageCategoryTest.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -315,10 +445,21 @@ at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserIsAbleToEnterNewCategoryDetails -->
+        <test-method is-config="true" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:testscript.ManageCategoryTest@8462f31]" started-at="2026-01-08T19:48:20 IST" name="browserQuit" finished-at="2026-01-08T19:48:22 IST" duration-ms="1451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIsAbleToEnterNewCategoryDetails status=FAILURE method=ManageCategoryTest.verifyUserIsAbleToEnterNewCategoryDetails()[pri:1, instance:testscript.ManageCategoryTest@8462f31] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
       </class> <!-- testscript.ManageCategoryTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
